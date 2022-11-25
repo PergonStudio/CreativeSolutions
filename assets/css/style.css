@@ -199,6 +199,7 @@
      display: flex;
      align-items: center;
      justify-content: space-between;
+     text-align: center;
      padding: 10px 0 10px 30px;
      font-family: "Roboto", sans-serif;
      font-size: 15px;
@@ -219,7 +220,7 @@
  .navbar .active,
  .navbar .active:focus,
  .navbar li:hover>a {
-     color: #71c55d;
+     color: #d1d352;
  }
  
  .navbar .dropdown ul {
@@ -254,7 +255,7 @@
  .navbar .dropdown ul a:hover,
  .navbar .dropdown ul .active:hover,
  .navbar .dropdown ul li:hover>a {
-     color: #71c55d;
+     color: #d1d352;
  }
  
  .navbar .dropdown:hover>ul {
@@ -352,7 +353,7 @@
  .navbar-mobile a:hover,
  .navbar-mobile .active,
  .navbar-mobile li:hover>a {
-     color: #71c55d;
+     color: #d1d352;
  }
  
  .navbar-mobile .getstarted,
@@ -387,7 +388,7 @@
  .navbar-mobile .dropdown ul a:hover,
  .navbar-mobile .dropdown ul .active:hover,
  .navbar-mobile .dropdown ul li:hover>a {
-     color: #71c55d;
+     color: #d1d352;
  }
  
  .navbar-mobile .dropdown>.dropdown-active {
@@ -399,8 +400,8 @@
  
  #hero {
      width: 100%;
-     height: calc(100vh - 40px);
-     background: url(../img/hero-bg.png) center bottom no-repeat;
+     height: calc(100vh - 20px);
+     background: url(../img/wave.svg) center bottom no-repeat;
      background-size: 100%;
      position: relative;
      margin-top: 40px;
@@ -443,7 +444,7 @@
      font-weight: 700;
      line-height: 56px;
      font-family: "Philosopher", sans-serif;
-     color: #71c55d;
+     color: #b9bb48;
  }
  
  @media (max-width: 768px) {
@@ -687,6 +688,10 @@
  
  #about-us img {
      max-width: 100%;
+ }
+ 
+ .about-img {
+     width: 700px;
  }
  
  #about-us .about-content {
@@ -1366,7 +1371,7 @@
  
  #contact .php-email-form input:focus,
  #contact .php-email-form textarea:focus {
-     border-color: #71c55d;
+     border-color: #d1d352;
  }
  
  #contact .php-email-form input {
@@ -1378,7 +1383,7 @@
  }
  
  #contact .php-email-form button[type=submit] {
-     background: #71c55d;
+     background: #d1d352;
      border: 0;
      padding: 10px 24px;
      color: #fff;
@@ -1386,7 +1391,7 @@
  }
  
  #contact .php-email-form button[type=submit]:hover {
-     background: #92d283;
+     background: #d1d352;
  }
  
  @-webkit-keyframes animate-loading {
@@ -1405,6 +1410,11 @@
      100% {
          transform: rotate(360deg);
      }
+ }
+ 
+ .btn-twitter {
+     width: 300;
+     height: 100px;
  }
  /*--------------------------------------------------------------
 # Footer
@@ -1467,5 +1477,10 @@
  .footer .copyrights p a,
  .footer .copyrights .credits a {
      letter-spacing: 0;
-     color: #71c55d;
+     color: #d1d352;
+ }
+ 
+ .navbar-brand-f {
+     width: 300px;
+     border-radius: 50%;
  }
